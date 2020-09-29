@@ -15,53 +15,292 @@
       integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
 
    <title>Travail Personnel #1</title>
+
 </head>
 
-<body class='container-fluid'>
+<body class='container-fluid bg-light text-body'>
+
 
    <!-- DÉBUT Barre de Navigation GAUCHE -->
-   <nav class='navbar'>
+   <nav class=''>
       <h2>Barre de Navigation</h2>
-
    </nav>
    <!-- FIN Barre de Navigation GAUCHE -->
 
 
-   <!-- DÉBUT Pied de Page -->
-   <footer class='row'>
-      <h2>Pied de Page</h2>
-   </footer>
-   <!-- FIN Pied de Page -->
-
-
    <!-- DÉBUT Les Cartes -->
-   <section id="cartes" class='row'>
-      <h2>Section des Cartes</h2>
+   <section id="cartes" class='row py-5' style='background-color:rgba(0, 255, 255, 0.08)'>
+      <div class="col-xl-3 col-sm-6 col-12 p-1">
+         <div class="card">
+            <div class="row no-gutters p-4">
+               <div class="col-4">
+                  <i class="fas fa-shopping-cart fa-3x text-warning"></i>
+               </div>
+               <div class="card-body col-8 text-right p-1">
+                  <h2 class="card-title lead">Ventes</h2>
+                  <h3 class="card-subtitle">150,000$</h3>
+               </div>
+            </div>
+            <div class="row no-gutters card-footer">
+               <p class="card-text text-muted"><small><i class="fas fa-sync-alt mr-2"></i>Updated Now</small></p>
+            </div>
+         </div>
+      </div>
+      <div class="col-xl-3 col-sm-6 col-12 p-1">
+         <div class="card">
+            <div class="row no-gutters p-4">
+               <div class="col-4">
+                  <i class="fas fa-money-bill-alt fa-3x text-success"></i>
+               </div>
+               <div class="card-body col-8 text-right p-1">
+                  <h2 class="card-title lead">Dépenses</h2>
+                  <h3 class="card-subtitle">48,000$</h3>
+               </div>
+            </div>
+            <div class="row no-gutters card-footer">
+               <p class="card-text text-muted"><small><i class="fas fa-sync-alt mr-2"></i>Updated Now</small></p>
+            </div>
+         </div>
+      </div>
+      <div class="col-xl-3 col-sm-6 col-12 p-1">
+         <div class="card">
+            <div class="row no-gutters p-4">
+               <div class="col-4">
+                  <i class="fas fa-users fa-3x text-info"></i>
+               </div>
+               <div class="card-body col-8 text-right p-1">
+                  <h2 class="card-title lead">Clients</h2>
+                  <h3 class="card-subtitle">120,000</h3>
+               </div>
+            </div>
+            <div class="row no-gutters card-footer">
+               <p class="card-text text-muted"><small><i class="fas fa-sync-alt mr-2"></i>Updated Now</small></p>
+            </div>
+         </div>
+      </div>
+      <div class="col-xl-3 col-sm-6 col-12 p-1">
+         <div class="card">
+            <div class="row no-gutters p-4">
+               <div class="col-4">
+                  <i class="fas fa-chart-line fa-3x text-danger"></i>
+               </div>
+               <div class="card-body col-8 text-right p-1">
+                  <h2 class="card-title lead">Visiteurs</h2>
+                  <h3 class="card-subtitle">73,000</h3>
+               </div>
+            </div>
+            <div class="row no-gutters card-footer">
+               <p class="card-text text-muted"><small><i class="fas fa-sync-alt mr-2"></i>Updated Now</small></p>
+            </div>
+         </div>
+      </div>
    </section>
    <!-- FIN Les Cartes -->
 
 
    <!-- DÉBUT Deux Tableaux -->
-   <section id="tableaux" class='row'>
-      <h2>Section des Deux Tableaux</h2>
+   <section id="tableaux" class='row justify-content-center align-items-center py-5'
+      style='background-color:rgba(0, 255, 255, 0.1)'>
+      <!-- DÉBUT Staff Salary -->
+      <div id="progression" class='col-md-12 col-lg-6'>
+         <div class="text-center p-2">
+            <h2 class='h4'>Staff Salary</h2>
+            <table class="table table-striped text-center">
+               <thead>
+                  <tr>
+                     <th scope="col">#</th>
+                     <th scope="col">Nom</th>
+                     <th scope="col">Salaire</th>
+                     <th scope="col">Date</th>
+                     <th scope="col">Message</th>
+                  </tr>
+               </thead>
+               <tbody>
+                  <tr>
+                     <th scope="row">1</th>
+                     <td>Martin</td>
+                     <td>5300$</td>
+                     <td>29/09/2020</td>
+                     <td><button class="btn btn-primary">Message</button></td>
+                  </tr>
+                  <tr>
+                     <th scope="row">2</th>
+                     <td>Éric</td>
+                     <td>5300$</td>
+                     <td>29/09/2020</td>
+                     <td><button class="btn btn-primary">Message</button></td>
+                  </tr>
+                  <tr>
+                     <th scope="row">3</th>
+                     <td>Carl</td>
+                     <td>5300$</td>
+                     <td>29/09/2020</td>
+                     <td><button class="btn btn-primary">Message</button></td>
+                  </tr>
+                  <tr>
+                     <th scope="row">4</th>
+                     <td>Andy</td>
+                     <td>5300$</td>
+                     <td>29/09/2020</td>
+                     <td><button class="btn btn-primary">Message</button></td>
+                  </tr>
+                  <tr>
+                     <th scope="row">5</th>
+                     <td>Scott</td>
+                     <td>5300$</td>
+                     <td>29/09/2020</td>
+                     <td><button class="btn btn-primary">Message</button></td>
+                  </tr>
+               </tbody>
+            </table>
+            <nav>
+               <ul class="pagination justify-content-center">
+                  <li class="page-item">
+                     <a class="page-link" href="#">«</a>
+                  </li>
+                  <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                  <li class="page-item"><a class="page-link" href="#">2</a></li>
+                  <li class="page-item"><a class="page-link" href="#">3</a></li>
+                  <li class="page-item">
+                     <a class="page-link" href="#">»</a>
+                  </li>
+               </ul>
+            </nav>
+         </div>
+      </div>
+      <!-- FIN Staff Salary -->
+
+      <!-- DÉBUT Recent Payments -->
+      <div id="liste" class='col-md-12 col-lg-6'>
+         <div class="text-center p-2">
+            <h2 class='h4'>Recent Payments</h2>
+            <table class="table table-dark text-center">
+               <thead>
+                  <tr>
+                     <th scope="col">#</th>
+                     <th scope="col">Nom</th>
+                     <th scope="col">Salaire</th>
+                     <th scope="col">Date</th>
+                     <th scope="col">Message</th>
+                  </tr>
+               </thead>
+               <tbody>
+                  <tr>
+                     <th scope="row">1</th>
+                     <td>Martin</td>
+                     <td>1645$</td>
+                     <td>29/09/2020</td>
+                     <td><button class="btn btn-success">Approuvé</button></td>
+                  </tr>
+                  <tr>
+                     <th scope="row">2</th>
+                     <td>Éric</td>
+                     <td>1645$</td>
+                     <td>29/09/2020</td>
+                     <td><button class="btn btn-success">Approuvé</button></td>
+                  </tr>
+                  <tr>
+                     <th scope="row">3</th>
+                     <td>Carl</td>
+                     <td>1645$</td>
+                     <td>29/09/2020</td>
+                     <td><button class="btn btn-danger">En Attente</button></td>
+                  </tr>
+                  <tr>
+                     <th scope="row">4</th>
+                     <td>Andy</td>
+                     <td>$2000</td>
+                     <td>29/09/2020</td>
+                     <td><button class="btn btn-danger">En Attente</button></td>
+                  </tr>
+                  <tr>
+                     <th scope="row">5</th>
+                     <td>Scott</td>
+                     <td>1645$</td>
+                     <td>29/09/2020</td>
+                     <td><button class="btn btn-success">Approuvé</button></td>
+                  </tr>
+                  <tr>
+                     <th scope="row">5</th>
+                     <td>Jack</td>
+                     <td>1645$</td>
+                     <td>29/09/2020</td>
+                     <td><button class="btn btn-danger">En Attente</button></td>
+                  </tr>
+               </tbody>
+            </table>
+            <nav>
+               <ul class="pagination justify-content-center">
+                  <li class="page-item">
+                     <a class="page-link" href="#">Previous</a>
+                  </li>
+                  <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                  <li class="page-item"><a class="page-link" href="#">2</a></li>
+                  <li class="page-item"><a class="page-link" href="#">3</a></li>
+                  <li class="page-item">
+                     <a class="page-link" href="#">Next</a>
+                  </li>
+               </ul>
+            </nav>
+         </div>
+      </div>
+      <!-- FIN Recent Payments -->
    </section>
    <!-- FIN Deux Tableaux -->
 
 
-   <section id='double' class='row'>
-      <h2>Section Double</h2>
+   <section id='double' class='row justify-content-center align-items-center py-5'
+      style='background-color:rgba(0, 255, 255, 0.08)'>
       <!-- DÉBUT Barres de Progression -->
-      <div id="progression">
-         <h2>Sous-Section 1/2 Barres de Progression</h2>
+      <div id="progression" class='col-12 col-lg-6'>
+         <div class="bg-dark text-light border rounded m-2 p-4">
+            <h2 class='h3 pb-4'>Sondage Langage de Programmation</h2>
+            <p class='text-uppercase'>java-j2ee</p>
+            <div class="progress my-2">
+               <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 95%">95%</div>
+             </div>
+             <p class="text-uppercase">angular 10</p>
+             <div class="progress my-2">
+               <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" style="width: 85%">85%</div>
+             </div>
+             <p class="text-uppercase">react</p>
+             <div class="progress my-2">
+               <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" role="progressbar" style="width: 70%">70%</div>
+             </div>
+             <p class="text-uppercase">php</p>
+             <div class="progress my-2">
+               <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" role="progressbar" style="width: 13%">13%</div>
+             </div>
+         </div>
       </div>
       <!-- FIN Barres de Progression -->
 
       <!-- DÉBUT Liste des Tâches -->
-      <div id="liste">
-         <h2>Sous-Section 2/2 Liste Des Tâches</h2>
+      <div id="liste" class='col-12 col-lg-6'>
+         <div class="m-2 p-2">
+            <h2 class='h4'>Tasks:</h2>
+            <button><i class="fas fa-check-square text-primary"></i></button>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            <button><i class="fas fa-edit text-success"></i></button>
+            <button><i class="fas fa-trash-alt text-danger"></i></button>
+         </div>
       </div>
       <!-- FIN Liste des Tâches -->
    </section>
+
+   <!-- DÉBUT Pied de Page -->
+   <footer class='row border-top border-dark justify-content-center pt-3'>
+      <div class="col-10 col-md-5">
+         <p class='text-body mr-1 d-inline'>TP01-420-345-AL</p>
+         <a class='text-body mr-1 font-italic' href="#">About</a>
+         <a class='text-body mr-1 font-italic' href="#">Support</a>
+         <a class='text-body font-italic' href="#">Blog</a>
+      </div>
+      <div class="col-10 col-md-5">
+         <p>&copy;2020 Copyright, Made with <span class="text-danger">&heartsuit;</span> by Martin Marion</p>
+      </div>
+   </footer>
+   <!-- FIN Pied de Page -->
 
 
    <!-- Optional JavaScript -->
