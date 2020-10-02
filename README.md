@@ -16,7 +16,7 @@ __Cégep André-Laurendeau__<br>
 
 * - [x] *__Skeleton of the Document__*
 * Barre de
-  * - [?] *__Navigation latérale à gauche__*
+  * - [x] *__Navigation latérale à gauche__*
   * - [x] *__Pied de page__*
 * Sections Simple:
   * - [x] *__Cartes__*
@@ -28,4 +28,4 @@ __Cégep André-Laurendeau__<br>
 <hr>
 <br>
 
-## Travail Personnel no. 1 - *Partie 2*
+## Travail Personnel no. 1 - __?*Partie 2*?__
