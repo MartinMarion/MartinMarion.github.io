@@ -24,6 +24,7 @@
          }
 
       }
+
       @media only screen and (max-width: 767px) {
 
          .mainSectionPushedRight {
@@ -31,14 +32,13 @@
          }
 
       }
-
    </style>
 
 </head>
 
 <body class=''>
    <!-- DÉBUT Barre de Navigation GAUCHE -->
-   <nav class='navbar navbar-expand-md navbar-light fixed-top' style='background-color:rgba(20, 20, 20, 0.8)'
+   <nav class='navbar navbar-expand-md navbar-light fixed-top p-0' style='background-color:rgba(20, 20, 20, 0.58)'
       style='height:75px'>
 
       <button type='button' class='navbar-toggler border-secondary ml-auto' data-toggle='collapse'
@@ -48,11 +48,15 @@
 
       <div class='collapse navbar-collapse justify-content-between bg-dark' id='sideMenu'>
          <div class="container-fluid">
+            <h3 class='ml-auto mr-2 text-light lead'>Programmation Web Avancée { 420-345-AL }</h3>
             <div class="row">
                <div class="sidebar fixed-top bg-dark shadow" style='width:220px;height:100vh'>
                   <a href="#" class="navbar-brand text-light my-3 d-block text-center lead">TP-01 A20</a>
                   <div class="border-bottom border-top p-3">
-                     <img class='border bg-light rounded-circle' style='width:45px' src="" alt="icone Java">
+                     <img id='myImage' class='border bg-light rounded-circle' style='width:45px'
+                        src="./image/Night(moon-stars).png" alt="©Martin Marion(Night-Ram)" data-toggle="tooltip"
+                        data-placement="right" data-html="true" 
+                        title="<p class='h4 my-3 text-primary font-italic'>&copy;Night-Ram</p>">
                      <a href="#" class="text-light lead">Martin Marion</a>
                   </div>
                   <ul class="navbar-nav flex-column mt-4">
@@ -464,17 +468,17 @@
 
       <!-- DÉBUT Pied de Page -->
       <footer class='row border-top border-dark pt-3 m-0'>
-               <div class="col-12 col-lg-5 text-center">
-                  <p class='text-body mr-1 d-inline'>TP01-420-345-AL</p>
-                  <a class='text-body mr-1 font-italic' href="#">About</a>
-                  <a class='text-body mr-1 font-italic' href="#">Support</a>
-                  <a class='text-body font-italic' href="#">Blog</a>
-               </div>
-               <div class="col-12 col-lg-7">
-                  <p class='text-center'>&copy;2020 Copyright, Made with <span class="text-danger">&heartsuit;</span> by
-                     Martin
-                     Marion</p>
-               </div>
+         <div class="col-12 col-lg-5 text-center">
+            <p class='text-body mr-1 d-inline'>TP01-420-345-AL</p>
+            <a class='text-body mr-1 font-italic' href="#">About</a>
+            <a class='text-body mr-1 font-italic' href="#">Support</a>
+            <a class='text-body font-italic' href="#">Blog</a>
+         </div>
+         <div class="col-12 col-lg-7">
+            <p class='text-center'>&copy;2020 Copyright, Made with <span class="text-danger">&heartsuit;</span> by
+               Martin
+               Marion</p>
+         </div>
       </footer>
       <!-- FIN Pied de Page -->
    </div>
@@ -493,6 +497,11 @@
    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
       integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
       crossorigin="anonymous"></script>
+   <script>
+      $(function () {
+         $('[data-toggle="tooltip"]').tooltip()
+      })
+   </script>
 </body>
 
 </html>
