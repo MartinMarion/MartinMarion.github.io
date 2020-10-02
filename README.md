@@ -16,14 +16,14 @@ __Cégep André-Laurendeau__<br>
 
 * - [x] *__Skeleton of the Document__*
 * Barre de
-  * - [ ] *__Navigation latérale à gauche__*
-  * - [ ] *__Pied de page__*
+  * - [?] *__Navigation latérale à gauche__*
+  * - [x] *__Pied de page__*
 * Sections Simple:
-  * - [ ] *__Cartes__*
-  * - [ ] *__2 tableaux__*
+  * - [x] *__Cartes__*
+  * - [x] *__2 tableaux__*
 * *Section Double:*
-  * - [ ] *__Barres de progressions__*
-  * - [ ] *__Liste des tâches__*
+  * - [x] *__Barres de progressions__*
+  * - [x] *__Liste des tâches__*
 <br>
 <hr>
 <br>
